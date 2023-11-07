@@ -1,9 +1,8 @@
 package com.koroyan.restassuredexample.enums;
 
-public enum  SOAPAction {
-    ADD_INTEGER("AddInteger"),
-    DIVIDE_INTEGER("DivideInteger"),
-    FIND_PERSON("FindPerson");
+public enum SOAPAction {
+
+    Find_Person_List("GetListByName");
 
     private final String value;
 
